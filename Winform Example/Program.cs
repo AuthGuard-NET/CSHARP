@@ -18,7 +18,7 @@ namespace Winform_Example
             Guard.Initialize("PROGRAMSECRET", "VERSION", "VARIABLESECRET");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Register());
+            Application.Run(new Login());
         }
     }
 }
