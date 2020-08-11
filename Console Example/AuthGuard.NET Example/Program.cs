@@ -16,6 +16,7 @@ namespace AuthGuard
                 //Usually when your application doesn't need a login and has freemode enabled you put the code here you want to do
                 MessageBox.Show("Freemode is active, bypassing login!", GuardSettings.ProgramName, MessageBoxButton.OK, MessageBoxImage.Information);
             }
+        home:
             PrintLogo();
             Console.WriteLine("[1] Register");
             Console.WriteLine("[2] Login");
@@ -44,6 +45,8 @@ namespace AuthGuard
                 {
                     MessageBox.Show("You have successfully registered!", GuardSettings.ProgramName, MessageBoxButton.OK, MessageBoxImage.Information);
                     // Do code of what you want after successful register here!
+                    Console.Clear();
+                    goto home;
                 }
                 else goto re; //Retry
             }
@@ -103,6 +106,8 @@ namespace AuthGuard
                 {
                     MessageBox.Show("You have successfully extended your subscription!", GuardSettings.ProgramName, MessageBoxButton.OK, MessageBoxImage.Information);
                     //Do code of what you want after successful extend here!
+                    Console.Clear();
+                    goto home;
                 }
                 else goto re; //Retry
             }
