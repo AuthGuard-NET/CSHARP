@@ -3,7 +3,7 @@
 ## Setup
 First you'll need to get your `Secret Key`, your `App Version` and your `Variable Secret`:
 * `Secret Key` + `App Version` is located at https://authguard.net/dashboard on your application's row
-*  `Variable Secret` is located at https://authguard.net/dashboard/applications/licenses.php?={your_app_id}
+*  `Variable Secret` is located at https://authguard.net/dashboard/applications/variables.php?={your_app_id}
 
 After you got the your `Secret Key`, your `App Version` and your `Variable Secret`, you can now Initialize AuthGuard and use all its features:
 
