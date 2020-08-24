@@ -54,5 +54,3 @@ if (Guard.RedeemToken(username, password, token))
     //Do code of what you want after successful extend here!
 }
 ```
-## Credits
-Thanks to [Centos](https://github.com/TrinityNET) for sharing his awesome project
