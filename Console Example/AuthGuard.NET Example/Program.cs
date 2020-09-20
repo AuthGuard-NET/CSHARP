@@ -100,7 +100,7 @@ namespace AuthGuard
                 string username = Console.ReadLine();
                 Console.WriteLine("Password:");
                 string password = Console.ReadLine();
-                Console.WriteLine("AppSecret:");
+                Console.WriteLine("License:");
                 string token = Console.ReadLine();
                 if (Guard.RedeemToken(username, password, token))
                 {
